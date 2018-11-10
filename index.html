@@ -1,62 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<title>TGT - The Guardians Team</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords" content="Games Hub Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- bootstrap-css -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<!--// bootstrap-css -->
-<!-- css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-<!--// css -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!-- portfolio -->	
-<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
-<!-- //portfolio -->	
-<!-- font -->
-<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
-<!-- //font -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	<title>TGT - The Guardians Team</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />	
+	<link href="css/style.css" rel="stylesheet"  type="text/css" media="all" />
+	<link href="css/chocolat.css" rel="stylesheet" type="text/css" media="all">	
+	<link href="css/font-awesome.css" rel="stylesheet"> 		
+		
+	<link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+		
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>	
+	<script type="text/javascript" src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/jquery.chocolat.js"></script>
+	<script type="text/javascript" src="js/jarallax.js"></script>
+	<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/jquery.filterizr.js"></script>
+	<script type="text/javascript" src="js/controls.js"></script>	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
 		});
-	});
-</script> 
-<script type="text/javascript">
-	$(document).ready(function(){
-        setTimeout('$("#preload").fadeOut(1500)', 2500);
-       
-     });
-</script>
-<!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<![endif]-->
+	</script>
+
+	<script>
+		wow = new WOW({
+			animateClass: 'animated',
+			offset: 100
+		});
+		wow.init();
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+	        setTimeout('$("#preload").fadeOut(1500)', 2500);
+	       
+	     });
+	</script>
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
 </head>
 <body>
 	<div id="preload" class="preload"></div>
 	<!-- banner -->
 	<div class="banner">
 		<div class="agileinfo-dot">
-			<div class="agileits-social">
-				<ul>
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
-				</ul>
-			</div>
 			<div class="header-top">
 				<div class="container">
 					<div class="header-top-info">
@@ -72,12 +74,29 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 							<!-- Collect the nav links, forms, and other content for toggling -->
 							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<div class="agileits-social">
+				<ul>
+					<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+					<li><a href="#" target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="agileits-email">
+				<ul>
+					<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+					<li><p>theguardiansteamofficial@gmail.com</p></li>
+				</ul>
+			</div>
 								<nav>
 									<ul class="nav navbar-nav">
 										<li><a href="index.html">Inicio</a></li>
 										<li><a href="#about" class="scroll">Sobre</a></li>
+										<li><a href="#jogado" class="scroll">Nossos Games</a></li>
 										<li><img src="images/logo.png"></li>
 										<li><a href="#team" class="scroll">Time</a></li>
+										<li><a href="#markets" class="scroll">Game Play</a></li>
 										<!--<li><a href="#blog" class="scroll">Blog</a></li>-->
 										<li><a href="#mail" class="scroll">Junte-se a nós</a></li>
 									</ul>
@@ -90,8 +109,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="layouts-banner-info">
 				<div class="container">
-					<div class="w3layouts-banner-slider">
-						<div class="w3layouts-banner-top-slider">
+					<div class="layouts-banner-slider">
+						<div class="layouts-banner-top-slider">
 							<div class="slider">
 								<div class="callbacks_container">
 									<ul class="rslides callbacks callbacks1" id="slider4">
@@ -115,18 +134,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //banner -->
 	<!-- about -->
-	<div class="about" id="about"> 
+	<div class="about " id="about"> 
 		<div class="container"> 
-			<div class="welcome">
+			<div class="welcome wow ">
 				<div class="agileits-title"> 
 					<h2>Bem-vindo</h2>
 					<p>Seja bem vindo ao nosso time onde temos como lema ganhar muito, diversão sempre. Lembre-se de que tudo que fazemos é jogar e o intuito principal deve ser sempre a diversão.</p>
 				</div>
 			</div>
 			<div class="about-lsrow"> 
-				<div class="col-md-7 col-sm-7 about-img"> 
+				<div class="col-md-7 col-sm-7 about-img fadeInLeft delay-05s"> 
 					<div class="about-text"> 
-						<h5 class="w3l-subtitle">Sobre nós</h5>
+						<h5 class="l-subtitle">Sobre nós</h5>
 						<p>Somos uma equipe universitaria da rede FTC afim de ter muita diversão e disputar campeonatos, junte-se a nossa equipe e represente-nos no game em que melhor se dispuser.</p>
 					</div>
 				</div> 
@@ -136,13 +155,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //about --> 
 	<!-- markets -->
-	<div class="markets" id="markets">
+	<div class="markets " id="markets">
 		<div class="container">
-			<div class="agileits-title"> 
+			<div class="agileits-title "> 
 				<h3>Game Play</h3>
 			</div>
 			<div class="markets-grids">
-				<div class="col-md-4 markets-grid">											
+				<div class="col-md-4 markets-grid wow ">											
 					<div>
 						<iframe class="video" src="https://www.youtube.com/embed/p5VD49suIUw"></iframe>
 					</div>	
@@ -160,42 +179,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>	
 					<div class="clearfix"> </div>					
 				</div>
-				<!--<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Bibendum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-comments" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Vestibulum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="col-md-4 w3ls-markets-grid">
-					<div class="agileits-icon-grid">
-						<div class="icon-left">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<div class="icon-right">
-							<h5>Fermentum</h5>
-							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>-->
+				
+
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -205,16 +190,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<section id="jogado">
 		<div class="portfolio" id="gallery">
 			<div class="container">
-				<div class="agileits-title"> 
+				<div class="agileits-title wow"> 
 					<h3>Games que Jogamos</h3> 
 				</div>
 				
-				<div class="filtr-container w3layouts agileits">
+				<div class="filtr-container layouts agileits">
 
-					<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
-						<a href="images/g1.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+					<div class="filtr-item layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+						<a href="images/g1.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="images/g1.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<img src="images/g1.png" class="img-responsive layouts agileits" alt="layouts Agileits">
 								<figcaption>
 									<h3>Paladins</h3>
 								</figcaption>
@@ -222,10 +207,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</a>
 					</div>
 
-					<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
-						<a href="images/g2.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+					<div class="filtr-item layouts agileits" data-category="2, 5" data-sort="Luminous night">
+						<a href="images/g2.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="images/g2.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<img src="images/g2.png" class="img-responsive layouts agileits" alt="layouts Agileits">
 								<figcaption>
 									<h3>Clash Royale</h3>
 								</figcaption>
@@ -233,10 +218,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</a>
 					</div>
 
-					<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
-						<a href="images/g3.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+					<div class="filtr-item layouts agileits" data-category="1, 4" data-sort="City wonders">
+						<a href="images/g3.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="images/g3.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<img src="images/g3.png" class="img-responsive layouts agileits" alt="layouts Agileits">
 								<figcaption>
 									<h3>Counter Strike</h3>
 								</figcaption>
@@ -245,10 +230,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 
 					
-					<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
-						<a href="images/g4.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+					<div class="filtr-item layouts agileits" data-category="3" data-sort="In production">
+						<a href="images/g4.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="images/g4.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<img src="images/g4.png" class="img-responsive layouts agileits" alt="layouts Agileits">
 								<figcaption>
 									<h3>Clash of Clans</h3>
 								</figcaption>
@@ -256,10 +241,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</a>
 					</div>
 					
-					<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
-						<a href="images/g5.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+					<div class="filtr-item layouts agileits" data-category="3, 4" data-sort="Industrial site">
+						<a href="images/g5.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="images/g5.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<img src="images/g5.png" class="img-responsive layouts agileits" alt="layouts Agileits">
 								<figcaption>
 									<h3>Free Fire</h3>
 								</figcaption>
@@ -267,50 +252,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</a>
 					</div>
 					
-					<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
-						<a href="images/g6.png" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+					<div class="filtr-item layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+						<a href="images/g6.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
 							<figure>
-								<img src="images/g6.png" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+								<img src="images/g6.png" class="img-responsive layouts agileits" alt="layouts Agileits">
 								<figcaption>
 									<h3>FIFA</h3>
 								</figcaption>
 							</figure>
 						</a>
 					</div>
-					<!--
-					<div class="filtr-item w3layouts agileits" data-category="1, 5" data-sort="City lights">
-						<a href="images/p7.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							<figure>
-								<img src="images/p7.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-								<figcaption>
-									<h3>Games <span>Hub</span></h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-
-					<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
-						<a href="images/p8.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							<figure>
-								<img src="images/p8.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-								<figcaption>
-									<h3>Games <span>Hub</span></h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-
-					<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
-						<a href="images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
-							<figure>
-								<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
-								<figcaption>
-									<h3>Games <span>Hub</span></h3>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-				-->
+					
 					<div class="clearfix"></div>
 				</div>
 			</div>
@@ -326,7 +278,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h4 class="modal-title">The <span>Guardians</span></h4>
 				</div> 
 				<div class="modal-body">
-					<div class="agileits-w3layouts-info">
+					<div class="agileits-layouts-info">
 						<img src="images/TGT.png" alt="" />
 						<p>Equipe idealizada a principio pelos estudantes de Sistemas de Informação da rede FTC unidade de Itabuna. Logo produzida por Maikdotbin</p>
 					</div>
@@ -338,7 +290,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- team -->
 	<div class="team" id="team">
 		<div class="container">
-			<div class="agileits-title"> 
+			<div class="agileits-title wow"> 
 				<h3>Nosso Time</h3> 
 			</div>
 			<div class="agileits-team-grids">
@@ -406,7 +358,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!-- footer -->
 	<div class="footer">
 		<div class="container">
-			<div class="footer-top">
+			<div class="footer-top wow">
 				<div class="col-md-4 amet-sed"> 
 					<div class="footer-title">
 						<h3>Sobre Nós</h3>
@@ -419,11 +371,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div> 
 					<div class="agileinfo-social-grids">
 						<ul>
-							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-							<li><a href="#"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-twitch" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+							<li><a href="#" target="_blank"><i class="fa fa-steam" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
 				  </div>
@@ -439,8 +391,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	<!-- //copyright -->
-	<script src="js/jarallax.js"></script>
-	<script src="js/SmoothScroll.min.js"></script>
+	<!-- Scripts -->	
+	
 	<script type="text/javascript">
 		/* init Jarallax */
 		$('.jarallax').jarallax({
@@ -449,9 +401,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			imgHeight: 768
 		})
 	</script>
-	<script src="js/responsiveslides.min.js"></script>
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
+	
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
@@ -469,22 +419,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
-	<!-- Tabs-JavaScript -->
-	<script src="js/jquery.filterizr.js"></script>
-		<script src="js/controls.js"></script>
+
+	<!-- Tabs-JavaScript -->	
 		<script type="text/javascript">
 			$(function() {
 				$('.filtr-container').filterizr();
 			});
 		</script>
 	<!-- //Tabs-JavaScript -->
-	<!-- PopUp-Box-JavaScript -->
-		<script src="js/jquery.chocolat.js"></script>
+
+	<!-- PopUp-Box-JavaScript -->		
 		<script type="text/javascript">
 			$(function() {
 				$('.filtr-item a').Chocolat();
 			});
 		</script>
-	<!-- //PopUp-Box-JavaScript -->
+	
+	<!-- Fim Scripts -->
 </body>	
 </html>
